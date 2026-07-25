@@ -43,9 +43,6 @@ background-position:center;
 background-repeat:no-repeat;
 }
 
-font-size : 48 px;
-margin-bottom : 100 px;
-}
 
 .hero h1{
     font-size:48px;
@@ -55,9 +52,9 @@ margin-bottom : 100 px;
 
 .hero button
 {
-
 margin-top:20px;
 }
+
 .hero p{
 font-size:20px;
 margin-bottom:20px;
@@ -94,7 +91,7 @@ box-shadow:0 40px 40px rgb(144, 13, 196);
 
 .card img{
 width:100%;
-height: 350px;px;
+height: 350px;
 object-fit:cover;
 }
 
@@ -103,8 +100,6 @@ object-fit:cover;
     font-weight: bold;
     color: #fefdff;
     margin: 15px 0;
-
-
 }
 
 footer{
@@ -112,17 +107,17 @@ footer{
 text-align:center;
 padding:20px;
 background:#7b5581;
-color:#ffffff
+color:#ffff
+}
 
 
 /* Tablet */
 
-@media(max-width:992px){
+@media (max-width:992px) {
 
 .movies{
 grid-template-columns:repeat(2,1fr);
 }
-
 header{
 flex-direction:column;
 }
@@ -130,8 +125,8 @@ flex-direction:column;
 nav{
 margin-top:10px;
 }
-
 }
+
 
 /* Mobile */
 
@@ -148,13 +143,11 @@ font-size:32px;
 .hero p{
 font-size:16px;
 }
-
 nav{
 display:flex;
 flex-direction:column;
 align-items:center;
 }
-
 nav a{
 margin:10px 0;
 }
